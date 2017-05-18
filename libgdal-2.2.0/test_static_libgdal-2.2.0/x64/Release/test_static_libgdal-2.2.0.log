@@ -1,0 +1,21 @@
+﻿Build started 17/05/2017 12:08:02.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\test_static_libgdal-2.2.0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x64\Release\test_static_gdal-2.2.0.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         test_static_libgdal-2.2.0.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x64\Release\test_static_gdal-2.2.0.exe
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x64\Release\test_static_gdal-2.2.0.exe K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\binaries\lib\x64\Release\test_static_gdal-2.2.0.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x64\Release\test_static_gdal-2.2.0.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x64\Release\test_static_gdal-2.2.0.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\test_static_libgdal-2.2.0.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.60

@@ -1,7 +1,7 @@
-﻿Build started 17/05/2017 08:41:06.
+﻿Build started 29/05/2017 08:18:56.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_dynamic_ogr2ogr\test_dynamic_ogr2ogr.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_dynamic_ogr2ogr\x86\Debug\test_dynamic_ogr2ogr.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_dynamic_ogr2ogr\x86\Debug\test_dynamic_ogr2ogr.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        ManifestResourceCompile:
@@ -27,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.63
+Time Elapsed 00:00:01.69

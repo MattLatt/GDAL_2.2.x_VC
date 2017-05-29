@@ -1,0 +1,21 @@
+﻿Build started 24/05/2017 11:16:54.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\3rdpart\xerces-c-3.1.4\projects\XercesLib\XercesLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\3rdpart\xerces-c-3.1.4\projects\XercesLib\x64\Release\XercesLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         XercesLib.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\3rdpart\xerces-c-3.1.4\projects\XercesLib\x64\Release\xerces-c-3-1-4.dll
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\3rdpart\xerces-c-3.1.4\projects\XercesLib\x64\Release\XercesLib.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\3rdpart\xerces-c-3.1.4\projects\XercesLib\x64\Release\XercesLib.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\3rdpart\xerces-c-3.1.4\projects\XercesLib\XercesLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36

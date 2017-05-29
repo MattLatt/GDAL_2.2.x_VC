@@ -1,7 +1,7 @@
-﻿Build started 17/05/2017 08:40:45.
+﻿Build started 29/05/2017 08:19:45.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\gdal_rename.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        Link:
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.49
+Time Elapsed 00:00:01.77

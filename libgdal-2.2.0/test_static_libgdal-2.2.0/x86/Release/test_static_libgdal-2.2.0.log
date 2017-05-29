@@ -1,7 +1,7 @@
-﻿Build started 17/05/2017 12:08:53.
+﻿Build started 29/05/2017 09:59:11.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\test_static_libgdal-2.2.0.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x86\Release\test_static_gdal-2.2.0.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\test_static_libgdal-2.2.0\x86\Release\test_static_gdal-2.2.0.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        Link:
@@ -18,4 +18,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.96
+Time Elapsed 00:00:00.51

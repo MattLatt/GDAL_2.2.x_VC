@@ -871,6 +871,30 @@
     <Filter Include="Source Files\frmts\usgsdem">
       <UniqueIdentifier>{a2d518a4-e0e0-4182-ad94-10a992fdeed8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\gpx">
+      <UniqueIdentifier>{4b629376-7c21-4698-b6a0-153c93d27430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\gpkg">
+      <UniqueIdentifier>{2ff106f9-e929-4887-b625-81d786a85359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\gmlas">
+      <UniqueIdentifier>{2e8cc881-f4d3-41df-a120-2c38cd82b85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\gmlas">
+      <UniqueIdentifier>{74167b1d-7645-427e-b6e0-0858ff1a8fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\ili">
+      <UniqueIdentifier>{035dcc65-2767-427a-ae81-0150d56f3c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\ili">
+      <UniqueIdentifier>{96fb4055-8c3a-4089-9e5a-e128a98d8fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\nas">
+      <UniqueIdentifier>{6dae8f27-db2f-4564-8e22-1d1cbc0bb9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\nas">
+      <UniqueIdentifier>{cc51fc4b-3763-4266-8ecc-792d83b7254d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\gdal-2.2.0\frmts\gtiff\libgeotiff\epsg_datum.inc">
@@ -2185,15 +2209,6 @@
     <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\vdv\ogr_vdv.h">
       <Filter>Header Files\ogr\ogrsf_frmts\vdv</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpkg\gpkgmbtilescommon.h">
-      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpkg\ogr_geopackage.h">
-      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.h">
-      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\wfs\ogr_wfs.h">
       <Filter>Header Files\ogr\ogrsf_frmts\wfs</Filter>
     </ClInclude>
@@ -2274,6 +2289,63 @@
     </ClInclude>
     <ClInclude Include="..\..\gdal-2.2.0\port\cpl_sha1.h">
       <Filter>Header Files\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpkg\gpkgmbtilescommon.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpkg\ogr_geopackage.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ogr_attrind.h">
+      <Filter>Header Files\ogr\ogrsf_frmts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ogrsf_frmts.h">
+      <Filter>Header Files\ogr\ogrsf_frmts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogr_gmlas.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogr_gmlas_consts.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\xercesc_headers.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili1reader.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili1readerp.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili2reader.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili2readerp.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\imdreader.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogr_ili1.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogr_ili2.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\xercesc_headers.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\nasreaderp.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\ogr_nas.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\sqlite\rasterlite2_header.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\sqlite</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2422,6 +2494,9 @@
       <Filter>Source Files\gcore</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.2.0\alg\contour.cpp">
+      <Filter>Source Files\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\alg\gdalpansharpen.cpp">
       <Filter>Source Files\alg</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.2.0\alg\gdalapplyverticalshiftgrid.cpp">
@@ -4527,15 +4602,6 @@
     <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\geojson\libjson\arraylist.c">
       <Filter>Source Files\ogr\ogrsf_frmts\geojson\libjson</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpx\ogrgpxdatasource.cpp">
-      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpx\ogrgpxdriver.cpp">
-      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpx\ogrgpxlayer.cpp">
-      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.cpp">
       <Filter>Source Files\ogr\ogrsf_frmts\xplane</Filter>
     </ClCompile>
@@ -5112,9 +5178,6 @@
     <ClCompile Include="..\..\gdal-2.2.0\port\cpl_vsil_crypt.cpp">
       <Filter>Source Files\port</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gdal-2.2.0\alg\gdalpansharpen.cpp">
-      <Filter>Source Files\alg</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gdal-2.2.0\gcore\gdalarraybandblockcache.cpp">
       <Filter>Source Files\gcore</Filter>
     </ClCompile>
@@ -5501,6 +5564,96 @@
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\sqlite\rasterlite2.cpp">
       <Filter>Source Files\ogr\ogrsf_frmts\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpx\ogrgpxdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpx\ogrgpxdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gpx\ogrgpxlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasconf.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasfeatureclass.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlaslayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasreader.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasschemaanalyzer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlaswriter.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasxlinkresolver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasxpatchmatcher.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\gmlas\ogrgmlasxsdcache.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gmlas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili1reader.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili2handler.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ili2reader.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\imdreader.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogrili1datasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogrili1driver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogrili1layer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogrili2datasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogrili2driver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\ili\ogrili2layer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\ili</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\nashandler.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\nasreader.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\ogrnasdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\ogrnasdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\ogrnaslayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\nas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.2.0\ogr\ogrsf_frmts\nas\ogrnasrelationlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\nas</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

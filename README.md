@@ -52,7 +52,7 @@ so you will have to rebuild the static lib version to build the "test_static_XX 
 
 
 ## 2017-05-29:	
-	1. READEME.md, SupportedDrivers.txt, SupportedDrivers.ods modificatio to be up-to-date. 
+	1. READEME.md, SupportedDrivers.txt, SupportedDrivers.ods modification to be up-to-date. 
 
 ## 2017-05-19:	
 	1. Added Lib Xerces 3.1.4 for some drivers

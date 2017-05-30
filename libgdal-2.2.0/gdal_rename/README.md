@@ -6,7 +6,7 @@ Overview:
 ------------------------------------------------------------------------------
 
 The goal of this application is to allow the user to rename a raster dataset 
-with it's SRS coordinates including it's companion files (world files,...) with some 
+with it's SRS coordinates including it's companion files (world file...) with some 
 formating options (Prefix, suffix, separator, left zero padding, numbers of digits, ...).
 Orginaly it was made to rename tiled datasets downloaded from many sources to have 
 consistent namming pattern or to update the name after a SRS change with gdalwarp.
@@ -19,8 +19,10 @@ It is renaming one file at a time (the last parameter),so you'll have to use com
 of a folder.
 
 This repository contain only the cpp file, you can find a full Visual Studio 2010
-Workspace linked with GDAL dll in my GDAL_2.1.x_VC repository
-here : https://github.com/MattLatt/GDAL_2.1.x_VC   
+Workspace linked with GDAL dll in my GDAL_2.2.x_VC repository
+here: https://github.com/MattLatt/GDAL_2.2.x_VC   
+There is also a Code::Blocks project here: https://github.com/MattLatt/gdal_rename-cb   
+
 
 Authors:
 ------------------------------------------------------------------------------
@@ -30,10 +32,11 @@ Authors:
 Version:
 ------------------------------------------------------------------------------
 
-* v0.0.7_20170320-01 : Added --output-console option to allow the print(in the console) 
-of the command line to perform the rename instead of doing it. It allow user to create 
-a batch file using redirection operator of the system	console '>', '>>', '|'...					
-					   Added a "sDirSep" with the OS dependant directory separator. 		
+
+* v0.0.8_20170530-01 : Refactored "comp*" variables to "sibling*", compiled on linux (gdal 2.2.0 + g++ 5.4.0 + 
+        Ubuntu 16.04 + Code::Blocks 16.01). rewrite proc "renameFileNoOverWrite"  as the posix rename() function
+        mapped by ::VSILRename overwrite already existing by default on linux while failing on windows
+
 
 Usage:
 ------------------------------------------------------------------------------
@@ -88,6 +91,11 @@ Parameters full descirption :
 
 History:
 ------------------------------------------------------------------------------
+* v0.0.7_20170320-01 : Added --output-console option to allow the print(in the console) 
+of the command line to perform the rename instead of doing it. It allow user to create 
+a batch file using redirection operator of the system	console '>', '>>', '|'...					
+					   Added a "sDirSep" with the OS dependant directory separator. 		
+
 * v0.0.6_20170317-01 : Changed EQUALN to EQUAL on some tests and added companion 
 					   files for jp2, j2k and img datasets.
 

@@ -1,2 +1,0 @@
-gdal_rename --config GDAL_DATA "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.3\binaries\gdal-data" --config PROJ_LIB "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.3\binaries\projlib" -r "WN" -p "Prefix_" -l 10 -z -t int -s "-" -x "_Suffix" -f "Tile_%%.9d-%%.9d_Lambert93%%s" "K:\###DataTest\Raster\ECW\Rename\8900_62450.ecw"
-pause

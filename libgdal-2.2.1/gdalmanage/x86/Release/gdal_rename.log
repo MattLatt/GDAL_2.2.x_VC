@@ -1,0 +1,115 @@
+﻿Build started 30/05/2017 14:07:57.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\gdal_rename.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"../../gdal-2.2.0/alg" /I"../../gdal-2.2.0/apps" /I"../../gdal-2.2.0/frmts" /I"../../gdal-2.2.0/gcore" /I"../../gdal-2.2.0/ogr" /I"../../gdal-2.2.0/port" /I"../../gdal-2.2.0/frmts/vrt" /I"../../gdal-2.2.0/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.2.0/ogr/ogrsf_frmts/geojson/libjson" /IK:\Components\Library\boost\1_60_0 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gdal_rename.cpp
+         gdal_rename.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\gdal-2.2.0\port\cpl_string.h(339): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\gdal-2.2.0\gcore\gdal_priv.h(753): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\gdal-2.2.0\gcore\gdal_priv.h(1274): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+     1>gdal_rename.cpp(220): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(223): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(226): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(234): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(272): warning C4129: ' ' : unrecognized character escape sequence
+     1>gdal_rename.cpp(294): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(310): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(353): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(356): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(364): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(367): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(370): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(373): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(376): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(379): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(382): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(385): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(388): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(391): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(430): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(434): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(438): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(443): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(445): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>gdal_rename.cpp(448): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(470): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>gdal_rename.cpp(471): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>gdal_rename.cpp(485): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(487): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(494): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(512): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>gdal_rename.cpp(531): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../dll/x86/Release "gdal-2.2.0.lib" /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.lib" /MACHINE:X86 "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exp
+         Generating code
+     1>k:\components\libraryv2\gdal\gdal_2.2.x_vc_nointfilescleanup\libgdal-2.2.0\gdal_rename\gdal_rename.cpp(192): warning C4715: 'renameFileNoOverWrite' : not all control paths return a value
+         Finished generating code
+         gdal_rename.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exe.intermediate.manifest"
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.exe K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\binaries\dll\x86\Release\gdal_rename.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\x86\Release\gdal_rename.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.0\gdal_rename\gdal_rename.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.25

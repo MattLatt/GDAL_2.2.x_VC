@@ -1,0 +1,24 @@
+﻿Build started 08/09/2017 10:47:46.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\gdalmanage\gdalmanage.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\gdalmanage\x86\Debug\gdalmanage.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\gdalmanage\x86\Debug\gdalmanage.exe K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\binaries\dll\x86\Debug\gdalmanage.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\gdalmanage\x86\Debug\gdalmanage.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\gdalmanage\x86\Debug\gdalmanage.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp\libgdal-2.2.1\gdalmanage\gdalmanage.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26

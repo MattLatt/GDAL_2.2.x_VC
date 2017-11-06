@@ -1,0 +1,47 @@
+﻿Build started 31/10/2017 21:19:07.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\test_static_libgdal-2.2.2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"../../gdal-2.2.2/alg" /I"../../gdal-2.2.2/frmts" /I"../../gdal-2.2.2/frmts/blx" /I"../../gdal-2.2.2/frmts/gif/giflib" /I"../../gdal-2.2.2/frmts/gtiff" /I"../../gdal-2.2.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.2.2/frmts/gtiff/libtiff" /I"../../gdal-2.2.2/frmts/idrisi" /I"../../gdal-2.2.2/frmts/iso8211" /I"../../gdal-2.2.2/frmts/jpeg" /I"../../gdal-2.2.2/frmts/jpeg/libjpeg" /I"../../gdal-2.2.2/frmts/mem" /I"../../gdal-2.2.2/frmts/pcidsk/sdk" /I"../../gdal-2.2.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.2.2/frmts/pcraster/libcsf" /I"../../gdal-2.2.2/frmts/pds" /I"../../gdal-2.2.2/frmts/png/libpng" /I"../../gdal-2.2.2/frmts/raw" /I"../../gdal-2.2.2/frmts/sdts" /I"../../gdal-2.2.2/frmts/vrt" /I"../../gdal-2.2.2/frmts/zlib" /I"../../gdal-2.2.2/gcore" /I"../../gdal-2.2.2/ogr" /I"../../gdal-2.2.2/ogr/ogrsf_frmts" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.2.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.2.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\gdal-2.2.2\port\cpl_string.h(339): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\gdal-2.2.2\gcore\gdal_priv.h(756): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\gdal-2.2.2\gcore\gdal_priv.h(1277): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x86/Release/ /LIBPATH:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\\" /LIBPATH:"../../3rdpart/expat-2.1.0/Win32/bin/Release/" /LIBPATH:"../../3rdpart/ecw-4.3/lib/vc10/x86/" /LIBPATH:"../../3rdpart/curl-7.49.1/bin/x86/" /LIBPATH:"../../3rdpart/geos-3.5.0/vc/x86/Release" /LIBPATH:"../../3rdpart/hdf5-1.8.17/lib/x86" /LIBPATH:"../../3rdpart/xerces-c-3.1.4/projects/XercesLib/x86/Release" "gdal-2.2.2.lib" wsock32.lib ws2_32.lib libexpat.lib NCScnet4.lib NCSEcw4_RO.lib NCSUtil4.lib libcurl.lib geos.lib hdf5.lib szip.lib "xerces-c-3-1-4.lib" psapi.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.lib" /MACHINE:X86 "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\main.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.exp
+         Generating code
+         Finished generating code
+         test_static_libgdal-2.2.2.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\x86\Release\test_static_gdal-2.2.2.exe.intermediate.manifest"
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(574,5): error MSB6006: "mt.exe" exited with code 31.
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.2.x_VC_NoIntFilesCleanUp_v2.2.2\libgdal-2.2.2\test_static_libgdal-2.2.2\test_static_libgdal-2.2.2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:03:04.10

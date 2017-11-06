@@ -1,1 +1,0 @@
-test_static_gdal-2.2.0 > SupportedDrivers.txt
